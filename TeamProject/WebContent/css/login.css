@@ -1,0 +1,188 @@
+@charset "UTF-8";
+body, html { 
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.back {
+    border: 0;
+    padding: 0; 
+    background-image: url('../image/main.PNG');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.back3{
+	position : absolute;
+	background-color: black; 
+	width: 100%;
+	height: 100%;
+	opacity: 0.4;
+}
+input[type=text],input[type=password],select{
+   width:580px;
+   height: 60px;
+   border:2px solid #aaa;
+   border-radius:6px;
+   margin:8px 0;
+   outline:none;
+   padding:8px;
+   box-sizing:border-box;
+   transition: .3s;
+   
+}
+
+input[type=text]:focus,input[type=password]:focus{
+   border-color : dodgerBlue;
+   box-shadow:0 0 8px 0 dodgerBlue;
+}
+
+.content{
+	position: absolute;
+	z-index: 2;
+	top: 22%; 
+   	left: 22%; 
+   	width: 1300px;
+   	height: 700px;
+   	display: inline-block;
+ 
+}
+
+#back2{
+	position: absolute;
+	z-index: 2;
+	top: 22%; 
+   	left: 22%; 
+   	width: 1300px;
+   	height: 700px;
+   	background-color: white;
+   	padding: 0;
+   	opacity: 0.7;
+}
+
+#rogo1{
+	position: absolute;
+	z-index: 5;
+	top: 80pt;
+	left: 70pt;
+	width: 400px;
+	height: 500px; 
+}
+
+#rogo1{
+	position: absolute;
+	z-index: 5;
+	top: 80pt;
+	left: 70pt;
+	width: 400px;
+	height: 500px; 
+}
+
+
+.text{
+	position: absolute;
+	z-index: 7;
+	top: 170pt;
+	left: 380pt;
+	
+}
+
+
+.text_ch{
+	position: absolute;
+	z-index: 7;
+	top: 170pt;
+	left: 458pt;
+}
+
+.text_cl{
+	position: absolute;
+	z-index: 7;
+	top: 170pt;
+	left: 520pt;
+	font-size: 40px;
+}
+
+#cl1{
+	color: blue;	
+}
+
+#cl3{
+	color: green;
+}
+
+.link{
+	position: absolute;
+	z-index: 7;
+	top: 300pt;
+	left: 460pt;
+	font-size: 15pt;
+}
+
+#link_ma1, #link_ma2{
+	color: #333;
+}
+.btn{
+	width:150px;
+	height: 60px;
+}
+
+#btn_login{
+	position: absolute;
+	font-size: 15pt;
+	top: 300pt;
+	left: 780pt;
+}
+
+
+#btn_jo1{
+	position: absolute;
+	top: 360pt;
+	left: 650pt;
+}
+
+#btn_jo2{
+	position: absolute;
+	top: 360pt;
+	left: 780pt;
+} 
+
+#btn_ch1{
+	position: absolute;
+	top: 250pt;
+	left: 650pt;
+}
+
+#btn_ch2{
+	position: absolute;
+	top: 250pt;
+	left: 780pt;
+} 
+
+#btn_pw2_lo{
+	position: absolute;
+	top: 410pt;
+	left: 650pt;
+}
+
+#btn_pw2_ba{
+	position: absolute;
+	top: 410pt;
+	left: 780pt;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
